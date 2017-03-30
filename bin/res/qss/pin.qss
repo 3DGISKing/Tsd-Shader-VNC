@@ -1,0 +1,32 @@
+
+QLabel,QFrame {
+	background-color: rgb(128,128,128);
+    border: 5px solid gray;
+     border-radius: 2px;
+}
+
+ QGroupBox {
+     border: 4px solid #ffffff;
+     border-radius: 10px;
+	 background-color: rgba(128,128,128,255);
+     /* margin-top: 1ex; leave space at the top for the title */
+ }
+ 
+ QPushButton {
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+	 background-color:rgb(255,255,255);
+     min-width: 31px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #dadbde, stop: 1 #f6f7fa);
+ }
+ QPushButton:flat {
+     border: none; /* no border for a flat push button */
+ }
+
+ QPushButton:default {
+     border-color: navy; /* make the default button prominent */
+ }

@@ -1,0 +1,23 @@
+
+  QGroupBox {
+     background-color: rgb(255,255,255);
+	 font: 16px;
+	 color: rgb(4,21,152);
+ }
+
+ QGroupBox::title {
+     subcontrol-position: top left; 
+	 //font: 18px;
+ }
+ QLabel {
+	 background-color: rgb(255,255,255);
+	 font: 16px;
+	 color: rgb(4,21,152);
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 

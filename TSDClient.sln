@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSDClient", "TSDClient\TSDClient.vcproj", "{6FDDB6E1-CBEF-446B-95CF-C27F33E59979}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TSDClientSetup", "TSDClientSetup\TSDClientSetup.vdproj", "{3A2EB384-B325-417B-B237-1CA6E12F4EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDDB6E1-CBEF-446B-95CF-C27F33E59979}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FDDB6E1-CBEF-446B-95CF-C27F33E59979}.Debug|Win32.Build.0 = Debug|Win32
+		{6FDDB6E1-CBEF-446B-95CF-C27F33E59979}.Release|Win32.ActiveCfg = Release|Win32
+		{6FDDB6E1-CBEF-446B-95CF-C27F33E59979}.Release|Win32.Build.0 = Release|Win32
+		{3A2EB384-B325-417B-B237-1CA6E12F4EB6}.Debug|Win32.ActiveCfg = Debug
+		{3A2EB384-B325-417B-B237-1CA6E12F4EB6}.Debug|Win32.Build.0 = Debug
+		{3A2EB384-B325-417B-B237-1CA6E12F4EB6}.Release|Win32.ActiveCfg = Release
+		{3A2EB384-B325-417B-B237-1CA6E12F4EB6}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

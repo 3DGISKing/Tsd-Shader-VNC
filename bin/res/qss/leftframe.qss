@@ -1,0 +1,29 @@
+ QGroupBox {
+     border: 0px solid gray;
+     border-radius: 0px;
+     margin-top: 0ex; 
+ }
+
+QPushButton {
+	background-color: rgba(255,255,255,0); 
+	border: none; 
+}
+ 
+QPushButton:pressed {
+     border-color: none
+ }
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: none
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
